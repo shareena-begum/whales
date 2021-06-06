@@ -1,0 +1,56 @@
+body{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: #cde0ec;
+    color:#100a0a
+    /* background-image: url("images/whale.jpg");
+    background-size: cover; */
+}
+
+h1{
+    color: #00008B;
+}
+
+h2{
+    color:#00008B;
+}
+h3 {
+    color:#00008B; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px dotted red; */
+    justify-content:space-between;
+}
+
+.columns_1 {
+    display: flex;
+    flex-direction:row;
+    /* border: 2px dotted pink;  */
+}
+
+.col_1 {
+ width: 30%;
+}
+
+.col_2{
+ width: 40%;
+}
+
+.col_3 {
+    width:30%;
+    border: 2px solid;
+    color: white;
+    background-color: black;
+}
