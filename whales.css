@@ -3,26 +3,58 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-weight: bold;
-    background-color: #cde0ec;
+    background-color: plum;
     color:#100a0a
     /* background-image: url("images/whale.jpg");
     background-size: cover; */
 }
+@media (min-width: 400px) {
+    body {
+        background: goldenrod;
+    }
+}
+
+@media (min-width: 650px) {
+    body {
+        background: violet
+    }
+}
 
 h1{
-    color: #00008B;
+    color: yellowgreen;
+    font-size: 2rem;
 }
 
 h2{
     color:#00008B;
 }
 h3 {
-    color:#00008B; 
+    color: black; 
+}
+
+header {
+    background: black;
+    padding: 25px 0;
+    color: #fff;
+    margin-bottom: 2em;
+    /* width: 100%; */
+}
+
+img {
+    width: 50%;
 }
 
 .container {
+    display: flex; 
+    flex-direction: row;
+    background-color: aliceblue;
+    width: 50%;
+}
+.container_1 {
     display: flex;
     flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
     /* border: 2px solid black; */
     justify-content: space-between;
 }
@@ -38,19 +70,32 @@ h3 {
     display: flex;
     flex-direction:row;
     /* border: 2px dotted pink;  */
+    background-color: rgb(12, 14, 13);
+    color: yellow;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .container_1 {
+        flex-direction:column;
+    }
 }
 
 .col_1 {
  width: 30%;
+ color: white;
+ background-color: rgb(185, 122, 122);
 }
 
 .col_2{
  width: 40%;
+ color: rgb(185, 122, 122);
+ background-color: white;
 }
 
 .col_3 {
-    width:30%;
-    border: 2px solid;
-    color: white;
-    background-color: black;
+    width:70%;
+    color: rgb(185, 122, 122);;
+    background-color: white
 }
