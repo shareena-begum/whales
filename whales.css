@@ -19,6 +19,11 @@ body{
     }
 } */
 
+img {
+    width: 600px;
+    height:300px;
+}
+
 h1{
     color: rgb(16, 14, 155);
     font-size: 30px;
