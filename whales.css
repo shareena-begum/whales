@@ -1,14 +1,13 @@
 body{
-    margin: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    font-family: Tahoma, Verdana, sans-serif;
     text-align: center;
-    font-weight: bold;
-    background-color: rgb(41, 39, 41);
-    color:#100a0a
-    /* background-image: url("images/whale.jpg");
-    background-size: cover; */
+    font-size: 16px;
+    font-weight: 300;
+    /* background-color: rgb(41, 39, 41);
+    color:#100a0a */
 }
-@media (min-width: 400px) {
+/* @media (min-width: 400px) {
     body {
         background: goldenrod;
     }
@@ -18,84 +17,40 @@ body{
     body {
         background: rgb(83, 2, 83)
     }
-}
+} */
 
 h1{
-    color: yellowgreen;
-    font-size: 2rem;
+    color: rgb(16, 14, 155);
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 h2{
-    color:#00008B;
+    color:#2c2cd8;
+    font-size: 26px;
 }
 h3 {
-    color: black; 
+    color: #7c7ce2; 
+    font-size: 20px;
+}
+h1,
+h2,
+h3 {
+    font-weight:700;
 }
 
-header {
-    background: black;
-    padding: 25px 0;
-    color: #fff;
-    margin-bottom: 2em;
-    /* width: 100%; */
-}
-
-img {
-    width: 50%;
-}
+/* Layout */
 
 .container {
-    display: flex; 
-    flex-direction: row;
-    background-color: aliceblue;
-    width: 50%;
-}
-.container_1 {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin: 0 auto;
-    /* border: 2px solid black; */
-    justify-content: space-between;
+    width: 650px;
+    margin-left: 300px;
 }
 
-.columns {
-    display: flex;
-    flex-direction: row;
-    /* border: 2px dotted red; */
-    justify-content:space-between;
-}
 
-.columns_1 {
-    display: flex;
-    flex-direction:row;
-    /* border: 2px dotted pink;  */
-    background-color: rgb(12, 14, 13);
-    color: yellow;
-    justify-content: space-between;
-    align-items: center;
-}
-
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .container_1 {
         flex-direction:column;
     }
-}
+} */
 
-.col_1 {
- width: 30%;
- color: white;
- background-color: rgb(185, 122, 122);
-}
-
-.col_2{
- width: 40%;
- color: rgb(185, 122, 122);
- background-color: white;
-}
-
-.col_3 {
-    width:70%;
-    color: rgb(185, 122, 122);;
-    background-color: white
-}
